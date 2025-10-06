@@ -380,6 +380,6 @@ p a {
   gap: 10px; 
   img {
     width: 45%;              /* Shrinks images to fit side by side */
-    height: auto;  
+    height: 45%;  
   }
 }

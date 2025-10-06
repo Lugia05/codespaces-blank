@@ -378,8 +378,4 @@ p a {
   display: flex;           /* Places items side by side */
   justify-content: center; /* Centers the images horizontally */
   gap: 10px; 
-  img {
-    width: 45%;              /* Shrinks images to fit side by side */
-    height: 45%;  
-  }
 }

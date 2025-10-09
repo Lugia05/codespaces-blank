@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TechnoArmor | Register</title>
+        <link href="style.css" rel="stylesheet">   
+    </head>
+    <body>
+        <header>
+            <h1>TechnoArmor: Enchance Your Game</h1>
+        </header>
+        <nav>
+            <h2><a href="Index.html">Home</a> - <a href="about.html">About</a> - <a href="projects.html">Projects</a> - <b">Register</b></h2>
+        </nav>
+        <main>
+            <article>
+                        <h3>Register for our offers!</h3>
+                        <form action="submit_form.php" method="post">
+                        <legend>Sign up to receive updates on our latest products, exclusive offers, and upcoming events. Join our community of retro tech enthusiasts and stay connected with TechnoArmor!</legend>
+
+                            <label for="name">Name:</label><br>
+                            <input type="text" id="name" name="name" required><br><br>
+
+                            <label><input type="radio" name="gender" value="male"> Male</label>
+                            <label><input type="radio" name="gender" value="female"> Female</label>
+                            <label><input type="radio" name="gender" value="male"> Nonbinary</label>
+                            <label><input type="radio" name="gender" value="female"> Other</label>
+
+                            <label for ="gender">Gender:</label><br>
+                            <input type="radio" id="gender" value="">
+
+                            <label for="birthmonth">Birth Month:</label><br>
+                            <input type="range" id="birthmonth" name="birthmonth" min="1" max="12" value="1">
+                            
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email" required><br><br>
+
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password">
+
+                            <label for="notifications">Sign up for notifications?:</label><br>
+                            <input type="checkbox" id="notifications" name="notifications" value="yes"> Recieve emails when updates occur<br><br>
+                            
+                            <label for="interest">Area of Interest:</label><br>
+                            <select id="interest" name="interest" required>
+                                <option value="">Select an option</option>
+                                <option value="customization">Hardware modding</option>
+                                <option value="customization">Software modding</option>
+                                <option value="customization">Repairs</option>
+                                <option value="customization">Gaming News</option>
+                                <option value="customization">Customization</option>
+                                <option value="other">Other</option>
+                            </select><br><br>
+
+                            <label for="favcolor">Choose a color for your profile(This can be changed later):</label>
+                            <input type="color" id="idcolor" name="idcolor"><br><br>
+
+                            <label for="profilepic">Upload an image for your profile picture:</label>
+                            <input type="file" id="profilepic" name="profilepic">
+
+                            <input type="reset" value="Clear Form">
+
+                            <input type="submit" value="Submit">
+                        </form>
+            </article>
+        </main>
+        <footer>
+            <h5>Contact us:</h5>
+            <h6>Email: randomchoice@example.com<br>Phone: 111-111-1111</h6>
+            <h5>Social Media:</h5>
+            <h6>Instagram: ---<br>X: ---<br>Youtube: ---</h6>
+        </footer>
+        <script>
+            /* 
+             * Put your internal JavaScript code here or replace with 
+             * <script src="filename.js"><\/script>
+             */
+        </script>
+    </body>
+</html>

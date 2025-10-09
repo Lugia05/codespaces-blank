@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(141, 200, 146);
+}
+footer {
+    background-color:rgb(43, 43, 43) ;
+    color: aliceblue;
+}
+h1 {
+    background-color:rgb(0, 0, 0) ;
+    color: rgb(204, 219, 209);
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 40;
+    font-weight: 125;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: black;
+    font-weight: 300;
+}
+
+nav {
+    font-weight: 200;
+    color: rgb(6, 130, 179);
+    background-color: rgb(234, 236, 125);
+}
+
+a:link {
+    font-weight: 200;
+    color: rgb(14, 29, 85);
+}
+
+a:visited {
+    font-weight: 200;
+    color: rgb(14, 29, 85);
+}
+
+article {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: rgb(32, 32, 32);
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: rgb(32, 32, 32);
+}
+
+section {
+    background-image: url(images/For_Back.jpg);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+    }
+    h3 {
+        color: white;
+    }
+}
+
+aside{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: rgb(32, 32, 32);
+}
+
+h3 {
+    font-size: 30;
+    text-decoration: underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+h4 {
+    font-size: 25;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 120;
+}
+
+h5 {
+    font-size: 20;
+}
+
+h6 {
+    font-size: 15;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

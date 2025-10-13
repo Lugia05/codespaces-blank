@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Results</title>
+</head>
+<body>
+  <h2>Your Submitted Data:</h2>
+  <p id="output"></p>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+
+    let results = '';
+    for (const [key, value] of params.entries()) {
+      results += `<strong>${key}</strong>: ${value}<br>`;
+    }
+
+    document.getElementById('output').innerHTML = results;
+  </script>
+</body>
+</html>

@@ -379,3 +379,9 @@ p a {
   justify-content: center; /* Centers the images horizontally */
   gap: 10px; 
 }
+
+legend {
+  font-size: 18px;
+  margin-bottom: 22px;
+  
+}

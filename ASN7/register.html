@@ -19,16 +19,14 @@
                         <form action="submit_form.php" method="post">
                         <legend>Sign up to receive updates on our latest products, exclusive offers, and upcoming events. Join our community of retro tech enthusiasts and stay connected with TechnoArmor!</legend>
 
-                            <label for="name">Name:</label><br>
+                            <br><label for="name">Name:</label><br>
                             <input type="text" id="name" name="name" required><br><br>
 
+                            <label for ="gender">Gender:</label><br>
                             <label><input type="radio" name="gender" value="male"> Male</label>
                             <label><input type="radio" name="gender" value="female"> Female</label>
                             <label><input type="radio" name="gender" value="male"> Nonbinary</label>
-                            <label><input type="radio" name="gender" value="female"> Other</label>
-
-                            <label for ="gender">Gender:</label><br>
-                            <input type="radio" id="gender" value="">
+                            <label><input type="radio" name="gender" value="female"> Other</label><br><br>
                             
                             <label for="email">Email:</label><br>
                             <input type="email" id="email" name="email" required><br><br>
@@ -36,7 +34,7 @@
                             <label for="password">Password:</label><br>
                             <input type="password" id="password" name="password"><br><br>
 
-                            <label for="notifications">Sign up for notifications?:</label><br>
+                            <label for="notifications">Sign up for notifications?</label><br>
                             <input type="checkbox" id="notifications" name="notifications" value="yes"> Recieve emails when updates occur<br><br>
                             
                             <label for="interest">Area of Interest:</label><br>
@@ -50,6 +48,9 @@
                                 <option value="other">Other</option>
                             </select><br><br>
 
+                            <label for="rating">How would you describe your skill level with soldering (Its okay if you don't know)?<br>(Left: No experience | Right: Expert):</label><br>
+                            <input type="range" id="rating" name="rating" min="1" max="5" value="3"><br><br>
+
                             <label for="favcolor">Choose a color for your profile(This can be changed later):</label><br>
                             <input type="color" id="idcolor" name="idcolor"><br><br>
 
@@ -59,7 +60,7 @@
                             <label for="rating">How likely are you to reccomend TechnoArmor to someone else?<br>(Left: Least likely | Right: Most likely):</label><br>
                             <input type="range" id="rating" name="rating" min="1" max="5" value="3"><br><br>
 
-                            <input type="reset" value="Clear Form"><br>
+                            <input type="reset" value="Clear Form"><br><br>
 
                             <input type="submit" value="Submit">
                         </form>

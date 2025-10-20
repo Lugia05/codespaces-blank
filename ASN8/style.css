@@ -2,7 +2,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fa9797;
 }
 
 .container {
@@ -31,32 +30,32 @@ body {
 
 header {
   grid-area: header;
-  background: #ffaf63;
+  background-color: #ffaf63;
   padding: 10px;
   text-align: center;
 }
 
 nav {
   grid-area: nav;
-  background: #f4fb6a;
+  background-color: #f4fb6a;
   padding: 10px;
 }
 
 main {
   grid-area: main;
-  background: #b2ffba;
+  background-color: #b2ffba;
   padding: 10px;
 }
 
 aside {
   grid-area: aside;
-  background: #9db1ff;
+  background-color: #9db1ff;
   padding: 10px;
 }
 
 footer {
   grid-area: footer;
-  background: #f3b1ff;
+  background-color: #f3b1ff;
   padding: 10px;
   text-align: center;
 }
@@ -66,6 +65,6 @@ li {
 }
 
 img {
-  max-width: 100%;
+  width: 150px;
   height: auto;
 }

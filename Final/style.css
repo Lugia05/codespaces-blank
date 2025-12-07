@@ -1,0 +1,28 @@
+header{
+    background-color: #2a5399;
+    color: white;
+}
+
+.logo-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.logo-sub{
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+footer{
+    background-color: #90a8d3;
+    padding: 20px;
+    text-align: center;
+    color: #2a3f6d;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}

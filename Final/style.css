@@ -79,3 +79,9 @@ footer{
         margin-top: 20px;
     }
 }
+
+.form_style{
+    background:#e6ecf7; 
+    padding:20px; 
+    border-radius:6px;
+}

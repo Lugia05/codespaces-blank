@@ -54,17 +54,17 @@ footer{
     margin-top: 40px;
 }
 
-.rates-table thead {
+.topList {
     background-color: #1d3e7a;
     color: white;
 }
 
-.rates-table tbody tr:nth-child(odd) {
-    background-color: #ccd7ef;
+.odd {
+    background-color: #a7b6d5;
 }
 
-.rates-table tbody tr:nth-child(even) {
-    background-color: #e0e7f5;
+.even {
+    background-color: #6581ba;
 }
 
 @media (max-width: 768px) {

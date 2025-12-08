@@ -55,16 +55,16 @@ footer{
 }
 
 .topList {
-    background-color: #1d3e7a;
-    color: white;
+    background-color: #1d3e7a; !important
+    color: white; !important
 }
 
 .odd {
-    background-color: #a7b6d5;
+    background-color: #b4c5e7; !important
 }
 
 .even {
-    background-color: #6581ba;
+    background-color: #7494d5; !important
 }
 
 @media (max-width: 768px) {

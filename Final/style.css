@@ -26,3 +26,56 @@ footer{
     height: auto;
     display: block;
 }
+
+.squared {
+    max-width: 250px;
+    list-style-type: square;
+}
+
+.Our-Services { 
+    background-color: #e6ecf7;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.Our-Services img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.grooming-title {
+    background-color: #f2f4fb;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.rates-table thead {
+    background-color: #1d3e7a;
+    color: white;
+}
+
+.rates-table tbody tr:nth-child(odd) {
+    background-color: #ccd7ef;
+}
+
+.rates-table tbody tr:nth-child(even) {
+    background-color: #e0e7f5;
+}
+
+@media (max-width: 768px) {
+    .rates-table {
+        display: none; /* hide table */
+    }
+    .mobile-rates {
+        display: block;
+        background-color: #e6ecf7;
+        padding: 15px;
+        border-radius: 6px;
+        margin-top: 20px;
+    }
+}
